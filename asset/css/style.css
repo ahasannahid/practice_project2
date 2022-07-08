@@ -1,0 +1,368 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Playfair+Display+SC:wght@400;700&family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap');
+/* 
+font-family: 'Playfair Display', serif;
+font-family: 'Playfair Display SC', serif;
+font-family: 'Source Sans Pro', sans-serif;
+/* common css start */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --blue: #1e90ff;
+    --white: #ffffff;
+    --bg: #E8F3EC;
+    --docs: #7832E2;
+    --font: #03A67B;
+}
+.container-full{
+    width: 100%;
+    background: var(--white);
+}
+.container{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+}
+img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+/* common css end */
+/* nav start */
+nav{
+    position: sticky;
+    top: 0px;
+}
+nav .logo{
+    text-align: left;
+    width: 15%;
+    margin-top: 15px;
+}
+nav .navbar{
+    text-align: left;
+    width: 70%;   
+}
+nav ul{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    display: inline-block;
+    margin: 15px 15px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+nav ul li a span{
+    border: 1px solid var(--docs);
+    background: var(--docs);
+    color: var(--white);
+    border-radius: 3px;
+    padding:0px 5px;
+    font-weight: 300;
+}
+nav ul li a:hover{
+    color: #000;
+    text-decoration: underline;
+}
+nav .mundana{
+    text-decoration: none;
+    color: black;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+nav .mundana:hover{
+    text-decoration: underline;   
+}
+nav .theme{
+    text-decoration: none;
+    padding:8px 15px;
+    color: var(--font);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    border: 1px solid var(--font);
+    border-radius: 5px;
+}
+nav .theme:hover{
+    background: var(--font);
+    color: var(--white);
+    text-decoration: underline;
+}
+nav .get-button{
+    text-align: right;
+    width: 15%;
+    margin-top: 15px;
+}
+/* navbar end */
+/* banner start */
+header{
+    margin-top: 15px;
+}
+.header-content{
+    width: 50%;
+    background: var(--bg);
+    padding: 50px 30px; 
+}
+.header-content h1{
+    font-family: 'Playfair Display', serif;
+    line-height: 48px;
+    /* font-weight: 500; */
+    /* font-size: 40px; */
+}
+.header-content p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    line-height: 25.6px; 
+}
+.header-content a{
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 8px 15px;
+    color: white;
+    background: black;
+    text-decoration: none;
+}
+.header-content a:hover{
+    text-decoration: underline;
+}
+.header-poster{
+    width: 50%;
+}
+/* banner end */
+/* about start */
+.about-us{
+    margin-top: 40px;
+    /* background: #c2c2c2; */
+}
+.about-content{
+    width: 50%;
+    /* background: var(--bg); */
+    /* margin-right: 40px; */
+    /* padding: 50px 30px;  */
+}
+.about-content img{
+    width: 100%;
+    height: 150px;
+}
+.about-content h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 28.8px;
+}
+.about-content h1 a{
+    color: #000;
+    text-decoration: none;
+}
+.about-content h1 a:hover{
+    text-decoration: underline;
+    color: var(--font);
+}
+.about-content p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    line-height: 25.6px; 
+}
+.about-content .rick{
+    color: #000;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+}
+.about-content .read{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    margin-top: 0px;
+}
+.about-blog{
+    width: 50%;
+    margin-left: 30px;
+}
+.about-blog .blog{
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+}
+.about-blog .blog .img{
+    width: 33.33%;
+    height: 100px;
+    display: block;
+}
+.about-blog .blog .content p{
+    padding-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+.about-blog .blog .content p a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.about-blog .blog .content p a:hover{
+    color: var(--font);
+    text-decoration: underline;
+}
+/* about end */
+
+/* news start */
+.news{
+}
+.all-stories{
+    width: 70%;
+}
+.all-stories h3{
+    border-bottom: 1px solid #000;
+}
+.all-stories h3 span{
+    border-bottom: 3px solid rgba(0,0,0,0.44);
+    display: inline-block;
+    padding-bottom: 17px;
+    margin-bottom: -2px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.news-heading{
+    display: flex;
+}
+.news-heading .news-link{
+    width: 75%;
+}
+.news-link h2{
+    margin-bottom: 0px;
+}
+.news-heading .news-link a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.news-heading .news-link a:hover{
+    color: var(--font);
+    text-decoration: underline; 
+}
+.news-link p{
+    display: block;
+    margin-top: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+.news-heading .img{
+    width: 25%;
+}
+.news-heading .img img{
+    width: 100%;
+    height: 100px;
+    display: block;
+    margin-top: 20px;
+}
+.popular{
+    width: 30%;
+    margin-left: 20px;
+}
+.popular h3{
+    border-bottom: 1px solid black;
+}
+.popular h3 span{
+    border-bottom: 3px solid rgba(0,0,0,0.44);
+    display: inline-block;
+    padding-bottom: 17px;
+    margin-bottom: -2px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.popular-sl{
+    display: flex;
+}
+
+.popular-sl .number h1{
+    font-size: 60px;
+    margin-top: 0px;
+}
+.popular-sl .text h4{
+    margin-top: 5px;
+    padding-left: 10px;
+    margin-bottom: 3px;
+}
+.popular-sl .text p{
+    padding-left: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+.popular-sl .text h4 a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.popular-sl .text h4 a:hover{
+    color: var(--font);
+    text-decoration: underline;
+}
+/* news end */
+.hr{
+    width: 80%;
+    margin: auto;
+    opacity: 0.6;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+/* footer start */
+footer .left{
+    width: 50%;
+}
+footer .left h3{
+    display: inline-block;
+    margin-top: 10px;
+    font-family: 'Playfair Display', serif;
+    opacity: 0.7;
+}
+footer .left p{
+    display: inline-block;
+    padding-left: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 400; 
+    margin-top: 15px;
+}
+footer .right{
+    width: 50%;
+    text-align: right;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+footer .right span a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #5C1BBF;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+footer .right span a:hover{
+    text-decoration: underline;
+}
+footer img{
+    width: 60%;
+    margin: auto;
+    display: block;
+    margin-top: 120px;
+    margin-bottom: 20px;
+
+}
+/* footer end */
+
+
+
